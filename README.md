@@ -1,10 +1,11 @@
 # g2s
 Deep learning predictor of stool microbiome configuration from oral microbiome data 
 
+
 ## README
 
-
 SPACE REQUIREMENTS : g2s needs 32 GB of free space and 16 GB of RAM memory to work on your device
+
 
 OTHER  REQUIREMENTS: 
 
@@ -40,6 +41,8 @@ install_keras()
 quit()
 ```
 
+
+
 ### USAGE AND HELP 
 ```
 Rscript g2s.R otu_table_oral_microbiome.txt names_gengival_bacteria3.txt model_260719.h5 output_folder
@@ -50,10 +53,12 @@ Rscript g2s.R otu_table_oral_microbiome.txt names_gengival_bacteria3.txt model_2
 - output_folder: name of the output directory
 
 
+
 ### EXPECTED OUTPUTS
 The tool provides two files within the output folder. 
 1 - (.txt) Tabular outputs report the predicted structure of the stool microbiome in term of relative abundances. 
 2 - (.pdf) Graphical representations (bar plots) of the predicted microbiome structures
+
 
 
 ### EXAMPLES
