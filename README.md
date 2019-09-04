@@ -16,10 +16,8 @@ OTHER  REQUIREMENTS:
 
 
 ### First steps
-1) Download and unzip the g2s folder. 
-```
-tar -zxvf g2s.tar.gz
-```
+1) Download the g2s folder. 
+
 2) R settings and keras/tensorflow initialization
 ```
 R
