@@ -43,7 +43,7 @@ quit()
 
 ### Usage and Help 
 ```
-Rscript g2s.R otu_table_oral_microbiome.txt names_gengival_bacteria3.txt model_260719.h5 output_folder
+Rscript g2s.R otu_table_oral_microbiome.txt names_gingival_bacteria3.txt model_260719.h5 output_folder
 ```
 - otu_table_oral_microbiome.txt: genus level (L6) relative abundance table with samples in the columns and the full taxonomy following the greengens 05_2013 style in the rows. Rel. Ab. must be 0 to 1. (INPUT)
 - names_gengival_bacteria3.txt: this file is provided together with the g2s script and is necessary for automatically formatting the input file.
@@ -62,5 +62,5 @@ The tool provides two files within the output folder.
 ### Examples
 For verifing the correct installation use the data within the test folder and compare the results you obtain with the files test_g2s.txt and test_g2s.pdf
 ```
-Rscript g2s.R test/test.txt names_gengival_bacteria3.txt model_260719.h5 test_results
+Rscript g2s.R test/test.txt names_gingival_bacteria3.txt model_260719.h5 test_results
 ```
