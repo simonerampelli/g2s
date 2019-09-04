@@ -56,8 +56,8 @@ Rscript g2s.R otu_table_oral_microbiome.txt names_gengival_bacteria3.txt model_2
 
 ### Expected outputs
 The tool provides two files within the output folder. 
-1 - (.txt) Tabular outputs report the predicted structure of the stool microbiome in term of relative abundances. 
-2 - (.pdf) Graphical representations (bar plots) of the predicted microbiome structures
+1. (.txt) Tabular outputs report the predicted structure of the stool microbiome in term of relative abundances. 
+2. (.pdf) Graphical representations (bar plots) of the predicted microbiome structures
 
 
 
