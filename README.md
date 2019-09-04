@@ -15,7 +15,7 @@ OTHER  REQUIREMENTS:
 
 
 
-### FIRST STEPS
+### First steps
 1) Download and unzip the g2s folder. 
 ```
 tar -zxvf g2s.tar.gz
@@ -43,7 +43,7 @@ quit()
 
 
 
-### USAGE AND HELP 
+### Usage and Help 
 ```
 Rscript g2s.R otu_table_oral_microbiome.txt names_gengival_bacteria3.txt model_260719.h5 output_folder
 ```
@@ -54,14 +54,14 @@ Rscript g2s.R otu_table_oral_microbiome.txt names_gengival_bacteria3.txt model_2
 
 
 
-### EXPECTED OUTPUTS
+### Expected outputs
 The tool provides two files within the output folder. 
 1 - (.txt) Tabular outputs report the predicted structure of the stool microbiome in term of relative abundances. 
 2 - (.pdf) Graphical representations (bar plots) of the predicted microbiome structures
 
 
 
-### EXAMPLES
+### Examples
 For verifing the correct installation use the data within the test folder and compare the results you obtain with the files test_g2s.txt and test_g2s.pdf
 ```
 Rscript g2s.R test/test.txt names_gengival_bacteria3.txt model_260719.h5 test_results
