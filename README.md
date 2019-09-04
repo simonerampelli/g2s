@@ -15,7 +15,7 @@ OTHER  REQUIREMENTS:
 
 
 
-FIRST STEPS
+#FIRST STEPS
 
 1) Download and unzip the g2s folder. 
 
@@ -27,20 +27,20 @@ R
 install.packages(keras)
 library(keras)
 
-# Install tensorflow 
+-> Install tensorflow 
 #It's only necessary to run this once. 
 
-# for GPU
+-> for GPU
 install_keras(tensorflow = "gpu")
 
-# or CPU:
+-> or CPU:
 install_keras() 
 
 quit()
 
 
 
-USAGE AND HELP 
+#USAGE AND HELP 
 
 Rscript g2s.R otu_table_oral_microbiome.txt names_gengival_bacteria3.txt model_260719.h5 output_folder
 
@@ -51,14 +51,16 @@ Rscript g2s.R otu_table_oral_microbiome.txt names_gengival_bacteria3.txt model_2
 
 
 
-EXPECTED OUTPUTS
+#EXPECTED OUTPUTS
 
 The tool provides two files within the output folder. 
 1 - (.txt) Tabular outputs report the predicted structure of the stool microbiome in term of relative abundances. 
 2 - (.pdf) Graphical representations (bar plots) of the predicted microbiome structures
 
 
-EXAMPLES
+
+#EXAMPLES
+
 For verifing the correct installation use the data within the test folder and compare the results you obtain with the files test_g2s.txt and test_g2s.pdf
 
 Rscript g2s.R test/test.txt names_gengival_bacteria3.txt model_260719.h5 test_results
