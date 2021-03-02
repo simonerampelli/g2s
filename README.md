@@ -1,4 +1,5 @@
 # g2s
+##New release: 02/03/2021
 Deep learning predictor of stool microbiome configuration from oral microbiome data 
 
 
